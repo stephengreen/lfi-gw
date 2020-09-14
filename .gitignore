@@ -1,0 +1,38 @@
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+auto/
+
+# Org-mode
+.org-id-locations
+*_archive
+
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# iPython cache files
+.ipynb_checkpoints/
+
+# Python
+*.pyc
+__pycache__/
+
+# VS Code
+.vscode/

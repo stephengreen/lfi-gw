@@ -1,0 +1,29 @@
+name: gwml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - corner
+  - h5py
+  - jupyterlab
+  - ipython
+  - lalsuite
+  - pycbc
+  - pip
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pandas
+  - tqdm
+  - ligo.skymap
+  - bilby
+  - astropy
+  - gwpy
+  - pip:
+    - chainconsumer
+    - nflows
+    - pyro-ppl
