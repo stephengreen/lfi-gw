@@ -1,5 +1,7 @@
 # Complete parameter inference for GW150914 using deep learning
 
+[![DOI](https://zenodo.org/badge/295482413.svg)](https://zenodo.org/badge/latestdoi/295482413)
+
 ## lfigw: Likelihood-Free Inference for Gravitational Waves
 
 ----
