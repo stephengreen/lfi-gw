@@ -303,7 +303,7 @@ def train_epoch(flow, train_loader, optimizer, epoch,
 
         # Keep track of total loss. w is a weight to be applied to each
         # element.
-        train_loss += (w * loss).sum()
+        train_loss += (w * loss.detach()).sum()
         total_weight += w.sum()
 
         # loss = (w * loss).sum() / w.sum()
